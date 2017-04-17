@@ -1,0 +1,8 @@
+Frage 1
+Welche der folgenden Aussagen trifft zu?
+Java-Quellcode wird...
+a) inteperitert und von der JVM zur Laufzeit kompiliert
+b) ausschlielich kompiliert
+c) zu Bytecode kompiliert, welcher von der JVM zur Laufzeit interpretiert wird
+d) zu Binärcode kompiliert, welcher von der JVM zur Laufzeit ausgeführt wird
+Antwort: c

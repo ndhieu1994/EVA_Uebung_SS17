@@ -1,0 +1,11 @@
+uebung2.aufgabe1
+Frage:
+Zur Berechnung der Werte benötigen Sie die Zahl PI. PI hat in jedem Objekt den gleichen Wert und ist immer unveränderlich.
+Durch welche zwei Schlüsselwörter können Sie das im Quellcode verdeutlichen?
+Antwort: durch "static final"
+
+
+
+uebung2.aufgabe2
+Frage: Welche Vorteile bietet ArrayList gegenüber Integer[] ?
+Antwort: ArrayList ist dynamisch und somit flexibler.

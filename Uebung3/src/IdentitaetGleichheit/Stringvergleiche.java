@@ -26,7 +26,10 @@ public class Stringvergleiche {
 		if (str1.equals(str2)){
 			System.out.println("equals() is True");
 		}
-		
+
+		// str1 und str2 zeigen auf die sellbe literalkonstante
+
+
 		System.out.println("********************");
 		
 		str2 = "a";
@@ -45,6 +48,14 @@ public class Stringvergleiche {
 		if (str1.equals(str2)){
 			System.out.println("equals() is True");
 		}
+
+		// str2 bildet erst ein eigenes literal string "a" und hängt "b" und "c" an
+		// str1 und str2 zeigen auf verschiedeǹe linerale
+
+		// "==" --> Speicherreferenz
+		// "equals()" --> Inhalt
+
+
 		
 		System.out.println("********************");
 		

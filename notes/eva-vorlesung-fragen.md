@@ -15,12 +15,12 @@ Antwort: c
 
 Code:
 ```java
-    int[] numbers1 = new int[] {23, 56, 68};
-    int[] numbers2 = new int[5];
+int[] numbers1 = new int[] {23, 56, 68};
+int[] numbers2 = new int[5];
 
-    numbers2 = numbers1;
+numbers2 = numbers1;
 
-    System.out.println(numbers2[3]);
+System.out.println(numbers2[3]);
 ```
 
 Was gibt das oben stehende Javatcodebeispiel auf der Konsole aus?
@@ -29,3 +29,5 @@ Was gibt das oben stehende Javatcodebeispiel auf der Konsole aus?
 * b) Ausgabe von null.
 * c) Ausgabe von 68
 * d) Es wird nichts augegeben. Stattdessen wird eine IndexOutOfBoundsException geworfen.
+
+Antwort: d

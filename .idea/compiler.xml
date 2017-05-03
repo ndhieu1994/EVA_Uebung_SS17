@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EVA_Uebung_SS17" />
+        <module name="Palindrome" />
         <module name="Uebung1" />
         <module name="Uebung2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="EVA_Uebung_SS17" target="1.8" />
+      <module name="Palindrome" target="1.5" />
       <module name="Uebung1" target="1.8" />
       <module name="Uebung2" target="1.8" />
     </bytecodeTargetLevel>

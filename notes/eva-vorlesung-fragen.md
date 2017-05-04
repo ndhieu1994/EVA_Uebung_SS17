@@ -42,3 +42,16 @@ Welche Aussage ist korrekt? Race Conditions können...
 * **d)** ... immer nur bei einzelnen Kontrollflüssen auftreten.
 
 Antwort: **b**
+
+## Frage 4
+
+Welche der nachfolgenden Arten von Anfragen gibt die Kontrolle
+unmittelbar an den Cient zurück, wobei der Server anschließend den
+Client zur Übermittlung des Ergebnisses aufruft?
+
+* **a)** Einweganfragen
+* **b)** Asynchrone Anfragen
+* **c)** Synchrone Anfragen
+* **d)** Verzögerte synchrone Anfragen
+
+Antwort: **b**

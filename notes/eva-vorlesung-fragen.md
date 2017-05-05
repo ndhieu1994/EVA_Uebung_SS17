@@ -46,7 +46,7 @@ Antwort: **b**
 ## Frage 4
 
 Welche der nachfolgenden Arten von Anfragen gibt die Kontrolle
-unmittelbar an den Cient zurück, wobei der Server anschließend den
+unmittelbar an den Client zurück, wobei der Server anschließend den
 Client zur Übermittlung des Ergebnisses aufruft?
 
 * **a)** Einweganfragen

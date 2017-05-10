@@ -37,7 +37,7 @@ public class Md5CollisionFinder extends Thread {
 
   public static void main(String[] args) throws NoSuchAlgorithmException, InterruptedException {
 
-    int n = Integer.MAX_VALUE;
+    int maxTestNum = Integer.MAX_VALUE;
     int numberOfThreads = 2;
     Thread[] finderThreads = new Thread[numberOfThreads];
 
@@ -46,10 +46,19 @@ public class Md5CollisionFinder extends Thread {
     //Md5CollisionFinder finder = new Md5CollisionFinder(0, Integer.MAX_VALUE, hash);
     long start = System.currentTimeMillis();
     for (int i = 0; i < numberOfThreads; i++) {
-      finderThreads[i] = new Md5CollisionFinder(
-        i * (n / numberOfThreads),
-        (i + 1) * (n / numberOfThreads),
-        hash);
+      if (i == numberOfThreads - 1) {
+        finderThreads[i] = new Md5CollisionFinder(
+          i * (maxTestNum / numberOfThreads),
+          maxTestNum,
+          hash
+        );
+      } else {
+        finderThreads[i] = new Md5CollisionFinder(
+          i * (maxTestNum / numberOfThreads),
+          (i + 1) * (maxTestNum / numberOfThreads),
+          hash
+        );
+      }
     }
 
     for (Thread t : finderThreads) {

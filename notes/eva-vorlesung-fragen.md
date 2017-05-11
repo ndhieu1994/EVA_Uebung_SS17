@@ -55,3 +55,14 @@ Client zur Übermittlung des Ergebnisses aufruft?
 * **d)** Verzögerte synchrone Anfragen
 
 Antwort: **b**
+
+## Frage 5
+
+Das User Datagram Protocol (UDP) ist ein Protokoll der ...
+
+* **a)** ... Darstellungssschicht
+* **b)** ... Transportschicht
+* **c)** ... Vermittlungsschicht
+* **d)** ... Leitungsschicht
+
+Antwort: **b**

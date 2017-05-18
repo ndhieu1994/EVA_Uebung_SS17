@@ -9,3 +9,18 @@ Antwort: durch "static final"
 uebung2.aufgabe2
 Frage: Welche Vorteile bietet ArrayList gegenüber Integer[] ?
 Antwort: ArrayList ist dynamisch und somit flexibler.
+
+
+UDP
+- paketorientiert
+- kann vehleranfällig sein
+- BSp: Skype
+
+TCP
+-verbindungsorientiert
+- alle Pakete kommen an
+- Bsp.: Dateien
+
+udp-aufgabe
+clients a b und c schauen was fehlt und tauschen miteinander aus
+tcp-aufgabe

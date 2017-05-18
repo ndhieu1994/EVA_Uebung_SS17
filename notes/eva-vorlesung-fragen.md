@@ -66,3 +66,14 @@ Das User Datagram Protocol (UDP) ist ein Protokoll der ...
 * **d)** ... Leitungsschicht
 
 Antwort: **b**
+
+## Frage 6
+
+Welche Aussage  zu Java RMI trifft **nicht** zu?
+
+* **a)** ... RMI erzeugt auf der Client-Seite ein Proxy-Objekt, dass das entfernte Objekt simuliert.
+* **b)** ... RMI muss auf der Server-Seite als Socket implementiert werden.
+* **c)** ... RMI ist die objektorientierte Variante des Remote Procedure Call (RPC) in Java.
+* **d)** ... RMI erlaubt eine synchrone Kommunikationen mit Aufruf und Ergebnisrückgabe.
+
+Antwort: **b**

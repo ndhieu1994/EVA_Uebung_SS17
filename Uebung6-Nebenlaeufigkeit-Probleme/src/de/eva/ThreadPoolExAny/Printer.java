@@ -14,7 +14,7 @@ public class Printer implements Callable<String> {
 
   @Override
   public String call() throws Exception {
-    for (int i = 0; i <r.nextInt(10000); i++) {
+    for (int i = 0; i < r.nextInt(10000); i++) {
       System.out.println(name + " is running");
     }
     return this.name;

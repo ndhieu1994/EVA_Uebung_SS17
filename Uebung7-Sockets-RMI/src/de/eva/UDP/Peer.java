@@ -143,10 +143,7 @@ public class Peer {
     while (true) {
       /// TODO: DatagramPacket fuer eingehende Nachricht erstellen
       int numberOfBytes = 1000;
-      DatagramPacket responsePacket = new DatagramPacket(
-        new byte[numberOfBytes],
-        numberOfBytes
-      );
+      DatagramPacket responsePacket = new DatagramPacket(new byte[numberOfBytes], numberOfBytes);
 
       /// TODO: Warte auf eingehende Nachricht
       socket.receive(responsePacket);

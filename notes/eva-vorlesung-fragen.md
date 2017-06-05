@@ -77,3 +77,5 @@ Welche Aussage  zu Java RMI trifft **nicht** zu?
 * **d)** ... RMI erlaubt eine synchrone Kommunikationen mit Aufruf und Ergebnisrückgabe.
 
 Antwort: **b**
+
+Welche der folgenden Aforderungen an ein verteiltes Sysetm ist eine nicht funktionale Anforderung (NFA)?
